@@ -5,6 +5,9 @@ A JSON API variant of [the drydock boilerplate](https://github.com/TestArmada/dr
 In one shell:
 
 ```console
+$ git clone git@github.com:TestArmada/drydock-boilerplate-json.git
+$ cd drydock-boilerplate-json
+$ rm -rf .git
 $ npm install
 $ node example-mock/main.js
 ```
