@@ -1,0 +1,24 @@
+{
+  "name": "drydock-boilerplate-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TestArmada/drydock-boilerplate-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TestArmada/drydock-boilerplate-json/issues"
+  },
+  "homepage": "https://github.com/TestArmada/drydock-boilerplate-json#readme",
+  "dependencies": {
+    "drydock": "0.4.4",
+    "request": "^2.64.0",
+    "yargs": "^3.26.0"
+  }
+}
