@@ -37,6 +37,20 @@ var routes = [
           return { birthday: birthday };
         }
       },
+      "get-person-default-birthday": {
+        description: "Return info about the person, but set a default birthday if one isn't already set",
+        handler: function (request) {
+          if (!this.state.birthday) {
+            this.state.birthday = "7/15/2014";
+          }
+
+          var birthday = this.state.birthday;
+
+          this.cookies.msg = "1";
+
+          return { birthday: birthday };
+        }
+      },
       "get-person-error": {
         description: "Return an error instead of the person's info.",
         handler: function () {
