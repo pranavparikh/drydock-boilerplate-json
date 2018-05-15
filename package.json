@@ -18,7 +18,7 @@
   "homepage": "https://github.com/TestArmada/drydock-boilerplate-json#readme",
   "dependencies": {
     "drydock": "0.7.0",
-    "request": "^2.64.0",
+    "request": "^2.86.0",
     "yargs": "^6.5.0"
   }
 }
